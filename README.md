@@ -15,6 +15,28 @@ To get a local copy up and running, follow these simple steps.
 *   Python 3.10 or higher
 *   pip or another package manager (e.g., `uv`, `poetry`)
 
+### Roadmap
+
+    [x) Initialize repository and basic structure
+    □
+
+    Implement tokenizer
+    □
+
+    Implement Transformer architecture
+    □
+
+    Set up training loop
+    □
+
+    Train on small dataset
+    □
+
+    Scale up and evaluate
+    □
+
+    Compare performance against target benchmarks
+
 ### Installation
 1.  Clone the repo
     ```sh
