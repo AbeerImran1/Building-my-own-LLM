@@ -221,3 +221,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# LLM / Machine Learning Specific Additions
+# ==========================================
+
+# --- Model Weights & Checkpoints ---
+# Prevents committing massive model binaries. Use Git LFS or DVC for these later if needed.
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+checkpoints/
+models/
+saved_models/
+
+# --- Datasets & Training Outputs ---
+# Ignore local datasets and generated text/samples
+data/
+datasets/
+outputs/
+runs/
+logs/
+
+# --- Experiment Tracking & Caching ---
+# Weights & Biases, MLflow, TensorBoard, HuggingFace cache
+wandb/
+mlruns/
+tensorboard/
+.huggingface/
